@@ -1,0 +1,36 @@
+div#form-ui {
+  display: flex;
+  justify-content: center;
+  button#shorten {
+    background-color: black;
+    color: white;
+    width: 10rem;
+  }
+
+  button.form--buttons {
+    border: none;
+    border-radius: 45%;
+    font-weight: 700;
+  }
+}
+
+div#copy-button {
+  display: flex;
+  justify-content: center;
+
+  button#copy {
+    background-color: rgb(8, 253, 131);
+    color: black;
+    border: 2rem black;
+    width: 10rem;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+  }
+}
+//IPADS
+@media only screen and (min-width: 813.1px) and (max-width: 1400px) {
+}
+
+//PHONES
+@media only screen and (min-width: 320px) and (max-width: 813px) {
+}

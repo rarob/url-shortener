@@ -1,0 +1,64 @@
+div#form--url {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  form#main-form {
+    input.form-input {
+      width: 40rem;
+      height: 3rem;
+      text-align: center;
+      font-size: 2rem;
+    }
+    div#form-ui {
+      display: flex;
+      justify-content: center;
+      button.form--buttons {
+        margin: 1rem 2rem 0 0;
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+div#result {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 2rem 0 0;
+  font-size: 3rem;
+  background-color: rgba(180, 177, 177, 0.644);
+}
+
+//PHONES
+@media only screen and (min-width: 320px) and (max-width: 813px) {
+  div#form--url {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    form#main-form {
+      input.form-input {
+        width: 30rem;
+        height: 3rem;
+        text-align: center;
+        font-size: 2rem;
+      }
+      div#form-ui {
+        display: flex;
+        justify-content: center;
+        button.form--buttons {
+          margin: 1rem 2rem 0 0;
+          padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  div#result {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 2rem 0 0;
+    font-size: 2rem;
+    background-color: rgba(180, 177, 177, 0.644);
+  }
+}

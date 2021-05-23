@@ -1,0 +1,174 @@
+/* Extra small devices (phones, 600px and down) 
+ max-width */
+/* Small devices (portrait tablets and large phones, 600px and up) 
+ min-width */
+/* Medium devices (landscape tablets, 768px and up) 
+ min-width  */
+/* Large devices (laptops/desktops, 992px and up) 
+ min-width  */
+/* Extra large devices (large laptops and desktops, 1200px and up)
+ min-width  */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  height: auto;
+}
+
+body {
+  box-sizing: border-box;
+  height: auto;
+}
+
+div#form-ui {
+  display: flex;
+  justify-content: center;
+}
+div#form-ui button#shorten {
+  background-color: black;
+  color: white;
+  width: 10rem;
+}
+div#form-ui button.form--buttons {
+  border: none;
+  border-radius: 45%;
+  font-weight: 700;
+}
+
+div#copy-button {
+  display: flex;
+  justify-content: center;
+}
+div#copy-button button#copy {
+  background-color: #08fd83;
+  color: black;
+  border: 2rem black;
+  width: 10rem;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+div#form--url {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+div#form--url form#main-form input.form-input {
+  width: 40rem;
+  height: 3rem;
+  text-align: center;
+  font-size: 2rem;
+}
+div#form--url form#main-form div#form-ui {
+  display: flex;
+  justify-content: center;
+}
+div#form--url form#main-form div#form-ui button.form--buttons {
+  margin: 1rem 2rem 0 0;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  font-size: 1.5rem;
+}
+
+div#result {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 2rem 0 0;
+  font-size: 3rem;
+  background-color: rgba(180, 177, 177, 0.644);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 813px) {
+  div#form--url {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  div#form--url form#main-form input.form-input {
+    width: 30rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  div#form--url form#main-form div#form-ui {
+    display: flex;
+    justify-content: center;
+  }
+  div#form--url form#main-form div#form-ui button.form--buttons {
+    margin: 1rem 2rem 0 0;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    font-size: 1.5rem;
+  }
+
+  div#result {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 2rem 0 0;
+    font-size: 2rem;
+    background-color: rgba(180, 177, 177, 0.644);
+  }
+}
+div#title {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+div#title h1#h1__title {
+  color: white;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 813px) {
+  div#title {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  div#title h1#h1__title {
+    color: white;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+}
+div#instructions {
+  display: flex;
+  justify-content: center;
+}
+div#instructions p.instructions--text {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 813px) {
+  div#instructions {
+    display: flex;
+    justify-content: center;
+  }
+  div#instructions p.instructions--text {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

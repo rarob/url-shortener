@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js'></script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>URL Shortener</title>
+</head>
+
+<body>
+  <div id='title'>
+
+    <h1 id="h1__title">URL Shortener</h1>
+
+  </div>
+  <div id='instructions'>
+    <p class='instructions--text'>Input a URL to shorten. <br>
+      <a class='instructions--secondary' href='#'>Register</a> or <a class=' instructions--secondary' href='#'>Login</a>
+      and save your shortened URLs.
+    </p>
+  </div>
+
+  <div id='form--url'>
+    <form id='main-form'>
+      <input class='form-input' id='url' type='url' placeholder="Enter Your URL" required>
+
+
+      <div id='form-ui'>
+        <button id='shorten' class='form--buttons'>Shorten</button>
+      </div>
+      <div id='result'>
+
+      </div>
+
+    </form>
+  </div>
+
+
+
+  <footer>Made by Bobby Robinson</footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src='js/main.js' defer></script>
+
+</body>
+
+</html>
